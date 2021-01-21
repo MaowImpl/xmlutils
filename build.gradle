@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+group = 'maow'
+archivesBaseName = 'xmlutils'
+version = project.project_version
+
+subprojects {
+    version = project.project_version
+}
