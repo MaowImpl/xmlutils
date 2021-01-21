@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+group = 'maow'
+archivesBaseName = 'xmlutils-dom4j'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.dom4j:dom4j:${project.dom4j_version}"
+}
