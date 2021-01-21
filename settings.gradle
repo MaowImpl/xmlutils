@@ -1,0 +1,4 @@
+rootProject.name = 'xmlutils'
+include 'xmlutils-writing'
+include 'xmlutils-dom4j'
+
